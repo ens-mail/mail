@@ -2,8 +2,8 @@ FROM node:18
 
 WORKDIR /app
 
-RUN yarn add Haraka
 COPY . .
+RUN yarn install --frozen-lockfile
 
 EXPOSE 25
 
