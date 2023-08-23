@@ -241,13 +241,21 @@ abstract-logging@^2.0.0:
   resolved "https://registry.yarnpkg.com/abstract-logging/-/abstract-logging-2.0.1.tgz#6b0c371df212db7129b57d2e7fcf282b8bf1c839"
   integrity sha512-2BjRTZxTPvheOvGbBslFSYOUkr+SjPtOnrLP33f+VIWLzezQpZcqVg7ja3L4dBXmzzgwT+a029jRx5PCi3JuiA==
 
-address-rfc2821@*, address-rfc2821@^2.0.1:
+address-rfc2821@*:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/address-rfc2821/-/address-rfc2821-2.0.1.tgz#173889dc07a330b8f6730ffc564bd955136dc7ba"
   integrity sha512-1NclacuEtuULj6yuwFSxDegXZAaW3h37j8OgYQ/ApqhY3KehWF9RQmo1lg9RL2dc6r1wlJMQj5pM7xgmhR0bKw==
   dependencies:
     nearley "^2.20.1"
     punycode "^2.1.0"
+
+address-rfc2821@^2.0.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/address-rfc2821/-/address-rfc2821-2.1.1.tgz#dd3bdc0ea672d3bbff510c56585c617599ae8399"
+  integrity sha512-eB7HMz+Zmd6qx408YkgGC8HTcRGu1amwcl5VQUNqlAXflG7XLWrDI6zsU57yNyv7xxvjowiKtMobAG93dB7lYg==
+  dependencies:
+    nearley "^2.20.1"
+    punycode "^2.3.0"
 
 address-rfc2822@*, address-rfc2822@^2.1.0:
   version "2.1.0"
@@ -1894,7 +1902,7 @@ protocols@^2.0.1:
   resolved "https://registry.yarnpkg.com/protocols/-/protocols-2.0.1.tgz#8f155da3fc0f32644e83c5782c8e8212ccf70a86"
   integrity sha512-/XJ368cyBJ7fzLMwLKv1e4vLxOju2MNAIokcr7meSaNcVbWz/CPcW22cP04mwxOErdA5mwjA8Q6w/cdAQxVn7Q==
 
-punycode@2, punycode@^2.1.0, punycode@^2.1.1:
+punycode@2, punycode@^2.1.0, punycode@^2.1.1, punycode@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
   integrity sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==
