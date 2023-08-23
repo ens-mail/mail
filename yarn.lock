@@ -930,8 +930,9 @@ haraka-plugin-elasticsearch@^1.0.6:
     "@elastic/elasticsearch" "^7.8"
     haraka-utils "*"
 
-haraka-plugin-ensmail@../haraka-plugin-ensmail:
+"haraka-plugin-ensmail@git+https://github.com/ens-mail/haraka-plugin-ensmail.git#6a79f2b":
   version "1.0.0"
+  resolved "git+https://github.com/ens-mail/haraka-plugin-ensmail.git#6a79f2bccb43b2552e8661eb429f4a10acabd41b"
   dependencies:
     address-rfc2821 "^2.0.1"
     ethers "^6.7.0"
